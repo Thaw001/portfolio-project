@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name — Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a class="brand" href="#">
+          <div class="logo">TZH</div>
+          <div>
+            <h1>THAW ZIN HTIKE</h1>
+            <p>Frontend Developer • UI / UX</p>
+          </div>
+        </a>
+
+        <nav>
+          <a class="navlink" href="#projects">Projects</a>
+          <a class="navlink" href="#skills">Skills</a>
+          <a class="navlink" href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="intro">
+          <h2>Hi — I'm <span class="accent">THAW</span></h2>
+          <p>
+            I'm a frontend web developer who builds clean, responsive, and
+            accessible websites.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contact">Hire me</a>
+            <a class="btn btn-ghost" href="#projects">See work</a>
+          </div>
+        </div>
+
+        <aside class="profile">
+          <img
+            class="photo"
+            src="https://scontent-itm1-1.xx.fbcdn.net/v/t39.30808-6/481471193_1377468997229150_9194551999879870018_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Os5vGQplYWMQ7kNvwHwCHYW&_nc_oc=Adl0WKfOL6_j-bxP4Y7cxUXtAVvDy4t1A052EkOBfUNfgpqNc_6SQYVNH8RAnIMySVE&_nc_zt=23&_nc_ht=scontent-itm1-1.xx&_nc_gid=zAhtdmZWWs3V37euRcC1_Q&oh=00_AfdBIC0TeVYFTVzWmelPTQqyOQOy-sjV-3R83Va0ATLHjw&oe=68ED2F91"
+            alt="Your Name photo"
+          />
+          <h3>THAW ZIN HTIKE</h3>
+          <p class="role">Frontend Developer</p>
+          <div class="socials">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="grid">
+          <div class="card">
+            <img
+              src="../results-summary-component-main/preview.jpg"
+              alt="Project 1 screenshot"
+              class="project-img"
+            />
+            <div class="card-content">
+              <h4>results-summary Website</h4>
+              <p>Responsive built with HTML, CSS</p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="links">
+                <a
+                  href="../results-summary-component-main/"
+                  target="_blank"
+                  class="btn btn-ghost"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../dynamic-theme/90F2266F-094F-4498-ADD1-5698F6EC6B1B.png"
+              alt="Project 2 screenshot"
+              class="project-img"
+            />
+            <div class="card-content">
+              <h4>Time</h4>
+              <p>dynamic-theme-Watch</p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="links">
+                <a
+                  href="../dynamic-theme/index.html"
+                  target="_blank"
+                  class="btn btn-ghost"
+                  >Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="skills">
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React</span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h3>Contact Me</h3>
+        <form>
+          <label>Name</label>
+          <input type="text" placeholder="Your name" required />
+
+          <label>Email</label>
+          <input type="email" placeholder="Your email" required />
+
+          <label>Message</label>
+          <textarea
+            rows="4"
+            placeholder="Write your message..."
+            required
+          ></textarea>
+
+          <button class="btn btn-primary submit" type="submit">Send</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>© THAW — All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
