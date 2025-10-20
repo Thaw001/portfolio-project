@@ -190,7 +190,7 @@ nav {
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(140, 177, 38, 0.778);
 }
 
 .card-content {
