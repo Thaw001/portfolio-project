@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: #4a53083f;
   color: #e6eef6;
   line-height: 1.5;
   display: flex;
@@ -145,7 +145,7 @@ nav {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  gap: 20px;
+  gap: 3rem;
 }
 
 .card {
@@ -177,13 +177,14 @@ nav {
   height: 180px;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 25px;
 }
 
 .card {
   background: var(--card);
   border-radius: var(--radius);
   padding: 14px;
+  margin-bottom: 3rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -234,10 +235,12 @@ nav {
   background: rgba(255, 255, 255, 0.05);
   padding: 8px 12px;
   border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
 form {
   display: flex;
+  margin-bottom: 2rem;
   flex-direction: column;
   gap: 10px;
 }
